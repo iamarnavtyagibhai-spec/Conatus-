@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore - Premium Gaming & Electronics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h2>TechStore</h2>
+                </div>
+                <nav class="nav-menu" id="navMenu">
+                    <a href="" class="nav-link">Home</a>
+                    <a href="" class="nav-link">Products</a>
+                    <a href="" class="nav-link">About</a>
+                    <a href="" class="nav-link">Contact</a>
+                </nav>
+                <div class="nav-actions">
+                    <div class="cart-icon">
+                        <span class="cart-count" id="cartCount">0</span>
+                        🛒
+                    </div>
+                    <div class="user-icon">👤</div>
+                    <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Premium Gaming & Electronics</h1>
+                    <p class="hero-subtitle">Discover the latest tech gear and gaming accessories at unbeatable prices</p>
+                    <button class="cta-button">Shop Now</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-products" id="products">
+            <div class="container">
+                <h2 class="section-title">Featured Products</h2>
+                <div class="products-grid" id="productsGrid">
+                    <div class="product-card" data-id="1">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300&h=200&fit=crop&auto=format" alt="Premium Headphones">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Premium Headphones</h3>
+                            <div class="product-price">$299.99</div>
+                            <button class="add-to-cart-btn" data-id="1">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-id="2">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1541140532154-b024d705b90a?w=300&h=200&fit=crop&auto=format" alt="Gaming Keyboard">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Gaming Keyboard</h3>
+                            <div class="product-price">$159.99</div>
+                            <button class="add-to-cart-btn" data-id="2">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-id="3">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=300&h=200&fit=crop&auto=format" alt="Wireless Mouse">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Wireless Mouse</h3>
+                            <div class="product-price">$79.99</div>
+                            <button class="add-to-cart-btn" data-id="3">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-card" data-id="4">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=300&h=200&fit=crop&auto=format" alt="4K Monitor">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">4K Monitor</h3>
+                            <div class="product-price">$449.99</div>
+                            <button class="add-to-cart-btn" data-id="4">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="categories">
+            <div class="container">
+                <h2 class="section-title">Shop by Category</h2>
+                <div class="categories-grid">
+                    <div class="category-card">
+                        <div class="category-image">
+                            <img src="https://images.unsplash.com/photo-1498049794561-7780e7231661?w=250&h=150&fit=crop&auto=format" alt="Electronics">
+                        </div>
+                        <h3 class="category-name">Electronics</h3>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-image">
+                            <img src="https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?w=250&h=150&fit=crop&auto=format" alt="Gaming">
+                        </div>
+                        <h3 class="category-name">Gaming</h3>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-image">
+                            <img src="https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=250&h=150&fit=crop&auto=format" alt="Accessories">
+                        </div>
+                        <h3 class="category-name">Accessories</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features" id="about">
+            <div class="container">
+                <h2 class="section-title">Why Choose TechStore?</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🚚</div>
+                        <h3 class="feature-title">Free Shipping</h3>
+                        <p class="feature-description">On orders over $50</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🔒</div>
+                        <h3 class="feature-title">Secure Payment</h3>
+                        <p class="feature-description">100% secure transactions</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📞</div>
+                        <h3 class="feature-title">24/7 Support</h3>
+                        <p class="feature-description">Always here to help</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TechStore</h3>
+                    <p>Your trusted source for premium gaming and electronics.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <a href="">Home</a>
+                    <a href="">Products</a>
+                    <a href="">About</a>
+                    <a href="">Contact</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: support@techstore.com</p>
+                    <p>Phone: (555) 123-4567</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <div class="newsletter">
+                        <input type="email" placeholder="Enter your email" class="newsletter-input">
+                        <button class="newsletter-btn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TechStore. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
