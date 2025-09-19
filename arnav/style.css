@@ -5,7 +5,7 @@
 }
 body {
   font-family: 'Segoe UI', sans-serif;
-  background: #23272a;
+  background: #9db3c4;
   color: #fff;
   line-height: 1.6;
 }
@@ -15,12 +15,12 @@ body {
   padding: 0 20px;
 }
 .header {
-  background: #2c2f33;
+  background: #5c7392;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1000;
-  box-shadow: 0 2px 10px rgba(0,0,0,.3);
+  box-shadow: 0 2px 10px rgba(121, 82, 82, 0.93);
 }
 .nav-wrapper {
   display: flex;
@@ -29,7 +29,7 @@ body {
   padding: 15px 0;
 }
 .logo h2 {
-  color: #5865f2;
+  color: #b9bbd1;
   font-size: 24px;
   font-weight: 700;
 }
@@ -91,7 +91,7 @@ body {
   margin-bottom: 40px;
 }
 .cta-button {
-  background: #5865f2;
+  background: #5c7392;
   color: #fff;
   border: none;
   padding: 16px 32px;
@@ -102,7 +102,7 @@ body {
   transition: all .3s;
 }
 .cta-button:hover {
-  background: #4752c4;
+  background: #5c7392;
   transform: translateY(-2px);
 }
 .featured-products, .categories, .features {
@@ -158,12 +158,12 @@ body {
 .product-price {
   font-size: 24px;
   font-weight: 700;
-  color: #5865f2;
+  color: #5c7392;
   margin-bottom: 15px;
 }
 .add-to-cart-btn {
   width: 100%;
-  background: #5865f2;
+  background: #5c7392;
   color: #fff;
   border: none;
   padding: 12px;
@@ -174,7 +174,7 @@ body {
   transition: all .3s;
 }
 .add-to-cart-btn:hover {
-  background: #4752c4;
+  background: #5c7392;
 }
 .category-name {
   padding: 20px;
